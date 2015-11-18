@@ -3,7 +3,7 @@ Javascript which takes a PubMed ID and converts it to a full reference + abstrac
 ## Introduction
 Takes pubmed ids from a data-pubmed-ids attribute and creates references for each valid pubmed id from europe pubmed central. The by default a short reference is created but by clicking on the expand icon the abstract and the full author list is revealed.
 ## Install
-To install europe-pmcentralizer the easiest way would be to install [bower](http://bower.io) as described in the bower documentation and then simply run teh following in your js directory:
+To install europe-pmcentralizer the easiest way would be to install [bower](http://bower.io) as described in the bower documentation and then simply run the following in your js directory:
 ```sh
 $ bower install git://github.com/KrisGray/europe-pmcentralizer.git
 ```
