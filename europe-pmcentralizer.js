@@ -137,7 +137,7 @@ function getPMCReferences(settings){
     
     jqxhr.fail(function() {
       $(pubmed).find(".pmcspinner").remove();
-      var links = $('<div>').attr('class', 'links');
+      var articleDiv = $('<div>').attr('class', 'article');
       var ul = $('<ul>').css({
         'list-style-type' : 'none',
         'padding-left'    : 0,
@@ -157,7 +157,8 @@ function getPMCReferences(settings){
         }).text('Pubmed'));
         li.appendTo(ul);
       };
-      ul.appendTo(pubmed);
+      ul.appendTo(articleDiv);
+      articleDiv.appendTo(pubmed);
     });
     
   });
