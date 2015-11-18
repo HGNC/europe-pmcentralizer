@@ -52,7 +52,7 @@ The function has two settings that you can pass (iconSize and spinnerColor) as s
   margin-bottom: 10px
 }
 ```
-## Screenshot
+## Screenshots
 *If all is well you should see a page like the screenshot below:*
 ![successful result](https://cloud.githubusercontent.com/assets/9589542/11246922/b51394d0-8e11-11e5-9cde-07507b3c5520.png)
 
