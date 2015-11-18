@@ -25,11 +25,6 @@ function articalLinks(pmcArticle, type, settings){
     onclick: "trackResourceLink('PubMed','http://www.ncbi.nlm.nih.gov/pubmed/"+pmcArticle.pmid+"'); return false;"
   }).text('Pubmed'));
   links.append('&nbsp;');
-  /*var toggle = $('<i>').attr({
-    'class': 'icon-'+type,
-    'id': pmcArticle.pmid+'-toggle-'+type
-  });
-  */
   var toggle = $('<i>').attr({
     id: pmcArticle.pmid+'-toggle-'+type,
     class: 'material-icons'
