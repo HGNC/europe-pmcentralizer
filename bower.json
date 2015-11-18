@@ -1,0 +1,31 @@
+{
+  "name": "europe-pmcentralizer",
+  "main": "europe-pmcentralizer.js",
+  "description": "Takes pubmed ids from a data-pubmed-ids attribute and creates references for each valid pubmed id from europe pubmed central. The by default a short reference is created but by clicking on the expand icon the abstract and the full author list is revealed.",
+  "moduleType": [],
+  "keywords": [
+    "PubMed",
+    "EuropePMC",
+    "reference",
+    "citation"
+  ],
+  "authors": [
+    "KrisGray"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "raphael": "~2.1.4",
+    "jquery.raphael.spinner": "git://github.com/hunterae/jquery.raphael.spinner.git",
+    "material-icons": "~0.1.0"
+  }
+}
