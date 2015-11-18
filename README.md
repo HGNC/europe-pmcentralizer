@@ -60,3 +60,7 @@ The function has two settings that you can pass (iconSize and spinnerColor) as s
 
 *However if the request fails you get the PubMed IDs and links to Europe PMC and PubMed:*
 ![failed request](https://cloud.githubusercontent.com/assets/9589542/11247136/b028dede-8e12-11e5-8fbb-ca904182514b.png)
+
+##Acknowledgements
+Many thanks to the Europe PubMed Central developers for providing a very useful REST webservice which this javascript code uses.
+Information about the Europe PMC REST API can be found at https://europepmc.org/RestfulWebService and the web service is also mentioned in their publication http://europepmc.org/articles/PMC4383902.
