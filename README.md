@@ -1,11 +1,14 @@
 # europe-pmcentralizer
 Javascript which takes a PubMed ID and converts it to a full reference + abstract div by querying Europe PMC
 ## Introduction
-Takes pubmed ids from a data-pubmed-ids attribute and creates references for each valid pubmed id from europe pubmed central. The by default a short reference is created but by clicking on the expand icon the abstract and the full author list is revealed.
+Takes PubMed IDs from a data-pubmed-ids attribute and creates references for each valid PubMed ID from Europe PubMed Central. The by default a short reference is created but by clicking on the expand icon the abstract and the full author list is revealed.
+
+**For a live demo visit http://hgnc.github.io/europe-pmcentralizer/**
+
 ## Install
 To install europe-pmcentralizer the easiest way would be to install [bower](http://bower.io) as described in the bower documentation and then simply run the following in your js directory:
 ```sh
-$ bower install git://github.com/KrisGray/europe-pmcentralizer.git
+$ bower install git://github.com/HGNC/europe-pmcentralizer.git
 ```
 ## Dependencies
 Javascript dependencies:
@@ -58,3 +61,7 @@ The function has two settings that you can pass (iconSize and spinnerColor) as s
 
 *However if the request fails you get the PubMed IDs and links to Europe PMC and PubMed:*
 ![failed request](https://cloud.githubusercontent.com/assets/9589542/11247136/b028dede-8e12-11e5-8fbb-ca904182514b.png)
+
+##Acknowledgements
+Many thanks to the Europe PubMed Central developers for providing a very useful REST webservice which this javascript code uses.
+Information about the Europe PMC REST API can be found at https://europepmc.org/RestfulWebService and the web service is also mentioned in their publication http://europepmc.org/articles/PMC4383902.
