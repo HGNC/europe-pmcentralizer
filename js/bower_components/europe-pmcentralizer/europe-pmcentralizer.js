@@ -112,7 +112,7 @@ function getPMCReferences(settings){
       return 'ext_id:'+pmid;
     }).join(' OR ');
     
-    var jqxhr = $.getJSON("http://www.ebi.ac.uk/europepmc/webservices/rest/search/query="+query+"&resulttype=core&format=json&callback=?", function(data) {
+    var jqxhr = $.getJSON("https://www.ebi.ac.uk/europepmc/webservices/rest/search/query="+query+"&resulttype=core&format=json&callback=?", function(data) {
       for (var i = data.resultList.result.length - 1; i >= 0; i--) {
         var articleLess = lessArticle(data.resultList.result[i], settings);
         var articleMore = moreArticle(data.resultList.result[i], settings);
